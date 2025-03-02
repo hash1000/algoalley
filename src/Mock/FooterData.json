@@ -1,0 +1,47 @@
+[
+  {
+    "section": "Quick Links",
+    "links": [
+      { "text": "Home", "url": "/" },
+      { "text": "About Us", "url": "/about-us" },
+      { "text": "Our Services", "url": "/services" },
+      { "text": "Portfolio", "url": "/portfolio" },
+      { "text": "Contact Us", "url": "/contact-us" }
+    ]
+  },
+  {
+    "section": "Our Services",
+    "links": [
+      { "text": "Web Development", "url": "/web-development" },
+      { "text": "App Development", "url": "/app-development" },
+      { "text": "Customized Software", "url": "/custom-software" },
+      { "text": "Digital Marketing", "url": "/digital-marketing" },
+      { "text": "UI/UX Designing", "url": "/ui-ux-design" },
+      { "text": "Cloud Solutions", "url": "/cloud-solutions" }
+    ]
+  },
+  {
+    "section": "Contact Us",
+    "links": [
+      { "text": "+971542990227", "url": "tel:+971542990227" },
+      { "text": "support@youragency.com", "url": "mailto:support@youragency.com" }
+    ],
+    "socialMedia": [
+      {
+        "platform": "Facebook",
+        "icon": "/assets/images/facebook.svg",
+        "url": "https://www.facebook.com/youragency"
+      },
+      {
+        "platform": "Instagram",
+        "icon": "/assets/images/instagram.svg",
+        "url": "https://www.instagram.com/youragency"
+      },
+      {
+        "platform": "Linkdine",
+        "icon": "/assets/images/linkdine.svg",
+        "url": "https://www.linkedin.com/company/youragency"
+      }
+    ]
+  }
+]

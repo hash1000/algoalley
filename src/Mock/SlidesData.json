@@ -1,0 +1,128 @@
+[
+  {
+    "subTitle": "Building Digital Worlds",
+    "title": {
+      "t1": "We Provide",
+      "t2": "Web Development"
+    },
+    "description": "Craft high-performance, interactive, and dynamic web solutions.",
+    "btns": [
+      {
+        "Styled": true,
+        "text": "Get Quote Now",
+        "link": "/vr-development"
+      },
+      {
+        "Styled": false,
+        "text": "View Portfolio",
+        "link": "/portfolio"
+      }
+    ],
+    "imagePath": "/assets/images/web-development-hero.png"
+  },
+  {
+    "subTitle": "Building Digital Worlds",
+    "title": {
+      "t1": "We Provide",
+      "t2": "App Development"
+    },
+    "description": "Delivering cutting-edge mobile and desktop applications.",
+    "btns": [
+      {
+        "Styled": true,
+        "text": "Get Quote Now",
+        "link": "/game-development"
+      },
+      {
+        "Styled": false,
+        "text": "View Portfolio",
+        "link": "/portfolio"
+      }
+    ],
+    "imagePath": "/assets/images/mobile-app-development-hero.png"
+  },
+  {
+    "subTitle": "Building Digital Worlds",
+    "title": {
+      "t1": "We Provide",
+      "t2": "Customized Software"
+    },
+    "description": "Tailored software solutions to meet your unique business needs.",
+    "btns": [
+      {
+        "Styled": true,
+        "text": "Get Quote Now",
+        "link": "/nft-metaverse"
+      },
+      {
+        "Styled": false,
+        "text": "View Portfolio",
+        "link": "/portfolio"
+      }
+    ],
+    "imagePath": "/assets/images/customized-software-hero.png"
+  },
+  {
+    "subTitle": "Building Digital Worlds",
+    "title": {
+      "t1": "We Provide",
+      "t2": "Digital Marketing"
+    },
+    "description": "Boost your brand's visibility with result-driven marketing strategies.",
+    "btns": [
+      {
+        "Styled": true,
+        "text": "Get Quote Now",
+        "link": "/game-design"
+      },
+      {
+        "Styled": false,
+        "text": "View Portfolio",
+        "link": "/portfolio"
+      }
+    ],
+    "imagePath": "/assets/images/digital-marketing-hero.png"
+  },
+  {
+    "subTitle": "Building Digital Worlds",
+    "title": {
+      "t1": "We Provide",
+      "t2": "UI/UX Designing"
+    },
+    "description": "Enhance user engagement with stunning and intuitive UI/UX designs.",
+    "btns": [
+      {
+        "Styled": true,
+        "text": "Get Quote Now",
+        "link": "/blockchain-games"
+      },
+      {
+        "Styled": false,
+        "text": "View Portfolio",
+        "link": "/portfolio"
+      }
+    ],
+    "imagePath": "/assets/images/uiux-designing-hero.png"
+  },
+  {
+    "subTitle": "Building Digital Worlds",
+    "title": {
+      "t1": "We Provide",
+      "t2": "Cloud Solutions"
+    },
+    "description": "Scalable, secure, and efficient cloud computing services.",
+    "btns": [
+      {
+        "Styled": true,
+        "text": "Get Quote Now",
+        "link": "/ar-development"
+      },
+      {
+        "Styled": false,
+        "text": "View Portfolio",
+        "link": "/portfolio"
+      }
+    ],
+    "imagePath": "/assets/images/cloud-sloutions-hero.png"
+  }
+]

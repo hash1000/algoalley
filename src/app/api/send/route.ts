@@ -3,7 +3,7 @@ import { Resend } from "resend";
 // import { AlgoalleyEmail } from "../../../components/email/Algoalley-email";
 import { ClientEmail } from "../../../components/email/client-email";
 
-const resend = new Resend(process.env.RESEND_API);
+// const resend = new Resend(process.env.RESEND_API);
 
 export async function POST(req: any, res: any) {
 //   try {

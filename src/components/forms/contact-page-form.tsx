@@ -459,7 +459,7 @@ export default function ContactFormSection(): JSX.Element {
                     fontWeight: 400,
                   }}
                 >
-                  +971542990227
+                  +92xxxxxxxxxxx
                 </Typography>
               </Box>
             </Box>

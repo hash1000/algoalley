@@ -180,7 +180,7 @@ export default function Sponsor() {
                           letterSpacing: "10.8px",
                         }}
                       >
-                        ALGO ALLEY AGENCY
+                        ALGO ALLEY
                       </Typography>
                       <Image
                         src={WhiteStar.src}

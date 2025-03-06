@@ -26,10 +26,10 @@ export default function QuestionForm() {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           padding: {
-            xs: "5rem 0px",
-            sm: "7rem 0px",
-            md: "8rem 0px",
-            lg: "10rem 0px",
+            xs: "2rem 0px",
+            // sm: "7rem 0px",
+            // md: "8rem 0px",
+            // lg: "10rem 0px",
           },
         }}
       >
@@ -108,7 +108,7 @@ export default function QuestionForm() {
                 >
                   <Box
                     component={Link}
-                    href={"tel:+971542990227"}
+                    href={"tel:+92xxxxxxxxxxx"}
                     sx={{
                       display: "flex",
                       gap: "10px",
@@ -129,7 +129,7 @@ export default function QuestionForm() {
                         fontWeight: 600,
                       }}
                     >
-                      +971542990227
+                      +92xxxxxxxxxxx
                     </Typography>
                   </Box>
                   <Box

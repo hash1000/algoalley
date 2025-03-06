@@ -20,9 +20,9 @@ import {motion} from "framer-motion";
 import {usePathname} from "next/navigation";
 
 const LINKS = [
-  {text: "About us", href: "/about-us"},
+  // {text: "About us", href: "/about-us"},
   {text: "Services", href: "/services"},
-  {text: "Portfolio", href: "/portfolio"},
+  // {text: "Portfolio", href: "/portfolio"},
   {text: "Contact Us", href: "/contact-us"},
 ];
 

@@ -79,7 +79,7 @@ export default function Help() {
             data-aos-duration="1500"
             sx={{
               maxWidth: "529px",
-              backgroundColor: "#FF4801",
+              // backgroundColor: "#FF4801",
               height: "100%",
               alignSelf: "center",
               borderRadius: "20px",

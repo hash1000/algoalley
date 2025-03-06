@@ -45,7 +45,7 @@ const HeroSection: FC<HeroSectionProps> = ({ Slide }): JSX.Element => {
         }
       },
     });
-  }, [count,textIndex,texts.length,updatedThisRound]);
+  }, [count, textIndex, texts.length, updatedThisRound]);
 
   return (
     <Grid
@@ -61,6 +61,8 @@ const HeroSection: FC<HeroSectionProps> = ({ Slide }): JSX.Element => {
           lg: "9rem 4rem 2rem",
         },
         mb: "auto",
+        minHeight: { xs: "auto", sm: "600px" }, // Add fixed minimum height
+        height: "100%", // Ensure container fills available space
       }}
     >
       <Grid
@@ -95,7 +97,7 @@ const HeroSection: FC<HeroSectionProps> = ({ Slide }): JSX.Element => {
                   sx={{
                     color: "#D9D9D9",
                     mb: { md: "22px", xs: "12px" },
-                    fontSize: { md: "28px", sm: "24px", xs: "18px" },
+                    fontSize: { sm: "24px", xs: "18px" },
                     fontWeight: "400",
                     lineHeight: "normal",
                   }}
@@ -112,7 +114,6 @@ const HeroSection: FC<HeroSectionProps> = ({ Slide }): JSX.Element => {
                   sx={{
                     color: "#F7F7F7",
                     fontSize: {
-                      lg: "82.045px",
                       md: "46px",
                       sm: "40px",
                       xs: "30px",
@@ -143,7 +144,6 @@ const HeroSection: FC<HeroSectionProps> = ({ Slide }): JSX.Element => {
                         color: "transparent",
                         textTransform: "uppercase",
                         fontSize: {
-                          lg: "82.045px",
                           md: "56px",
                           sm: "50px",
                           xs: "46px",
@@ -164,7 +164,7 @@ const HeroSection: FC<HeroSectionProps> = ({ Slide }): JSX.Element => {
                   sx={{
                     mb: { md: "22px", xs: "12px" },
                     color: "#D9D9D9",
-                    fontSize: { xs: "18px", sm: "22px", lg: "24px" },
+                    fontSize: { xs: "18px" },
                     fontWeight: 400,
                     lineHeight: { xs: "1.5", sm: "1.7", md: "normal" },
                   }}
@@ -268,7 +268,13 @@ const HeroSection: FC<HeroSectionProps> = ({ Slide }): JSX.Element => {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              "& .main-image": { width: "100%", height: "auto", px: "15px" },
+              "& .main-image": {
+                width: "100%",
+                height: "auto",
+                maxHeight: { sm: "500px", xs: "300px" }, // Add max-height constraint
+                objectFit: "contain", // Ensure image maintains aspect ratio
+                px: "15px",
+              },
             }}
           >
             <Image
@@ -278,6 +284,10 @@ const HeroSection: FC<HeroSectionProps> = ({ Slide }): JSX.Element => {
               height={500}
               alt="hero-image"
               className="main-image"
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+              }}
             />
           </Box>
         )}

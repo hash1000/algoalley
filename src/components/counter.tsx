@@ -29,7 +29,7 @@ export default function Counter({
   useEffect(() => {
     springValue.on("change", (latest) => {
       isFormattedValue(
-        latest >= 1000 ? "1K+" : latest >= 100 ? "100+" : latest.toFixed(0)
+        latest >= 1000 ? "1.5K+" : latest >= 100 ? "120+" : latest.toFixed(0)
       );
     });
   }, [formattedValue, springValue]);

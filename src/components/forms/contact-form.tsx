@@ -78,7 +78,7 @@ export default function ContactForm() {
       sx={{
         position: "relative",
         minWidth: { xs: "100%", md: "687px" },
-        minHeight: { xs: "100%", sm: "655px" },
+        // minHeight: { xs: "100%", sm: "655px" },
       }}
     >
       <ToastContainer />
@@ -91,9 +91,9 @@ export default function ContactForm() {
           position: "absolute",
           minWidth: { sm: "100%", md: "687px" },
           minHeight: { xs: "100%", sm: "655px" },
-          backgroundImage: matchemd
-            ? "none"
-            : `url(${"/assets/images/question-form-bg.png"})`,
+          // backgroundImage: matchemd
+          //   ? "none"
+          //   : `url(${"/assets/images/question-form-bg.png"})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
         }}
@@ -102,9 +102,9 @@ export default function ContactForm() {
         data-aos="fade-up"
         sx={{
           position: "relative",
-          marginLeft: { xs: "auto", sm: "13%" },
-          marginTop: { xs: "0%", sm: "22%" },
-          marginRight: "auto",
+          // marginLeft: { xs: "auto", sm: "13%" },
+          // marginTop: { xs: "0%", sm: "22%" },
+          margin: "auto",
           maxWidth: { xs: "420px", lg: "450px" },
           height: "100%",
           backgroundColor: "#0B1D30",

@@ -119,7 +119,7 @@ export default function ProjectWithUs() {
                 >
                   <Image
                     className="project-image"
-                    src="/assets/images/project-with-us-png.png"
+                    src="/assets/images/project-with-us.png"
                     alt="cartoon-img"
                     width={400}
                     height={323}

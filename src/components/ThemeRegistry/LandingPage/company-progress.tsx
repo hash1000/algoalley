@@ -14,15 +14,15 @@ export default function CompanyProgress() {
 
   const companyProgress: progressData[] = [
     {
-      title: 1000,
+      title: 1500,
       subtitle: "Total Projects Completed",
     },
     {
-      title: 10,
+      title: 22,
       subtitle: "Projects In-Progress",
     },
     {
-      title: 100,
+      title: 120,
       subtitle: "Talented Team Members",
     },
   ];

@@ -1,49 +1,49 @@
 [
   {
-    "image": "/assets/images/Unity&Unreal.png",
-    "title": "Unity and Unreal",
-    "description": "Game design, programming, art, animation, audio, testing, marketing, publishing, monetization, maintenance.",
-    "buttonLink": "/game-design",
+    "image": "/assets/images/web-development-services.jpg",
+    "title": "Web Development",
+    "description": "Custom website development, e-commerce solutions, web applications, CMS platforms, performance optimization, and maintenance.",
+    "buttonLink": "/web-development",
     "buttonText": "Learn More"
   },
   {
-    "image": "/assets/images/game-design.png",
-    "title": "Game Development",
-    "description": "Game design, programming, art, animation, audio, testing, marketing, publishing, monetization, maintenance.",
-    "buttonLink": "/game-development",
+    "image": "/assets/images/app-development-services.jpg",
+    "title": "App Development",
+    "description": "Native and cross-platform mobile apps, Android and iOS development, UI/UX design, backend integration, deployment, and maintenance.",
+    "buttonLink": "/app-development",
     "buttonText": "Learn More"
   },
   {
-    "image": "/assets/images/ar-vr.png",
-    "title": "AR and VR Games",
-    "description": "Real-life simulations, gamified metaverses, shopping experiences, real estate, sports, fashion.",
-    "buttonLink": "/ar-development",
+    "image": "/assets/images/customized-software-services.jpg",
+    "title": "Customized Software",
+    "description": "Tailor-made software solutions, automation tools, CRM, ERP, cloud applications, and business process optimization.",
+    "buttonLink": "/custom-software",
     "buttonText": "Learn More"
   },
   {
-    "image": "/assets/images/blockchain-games.png",
-    "title": "Blockchain Games",
-    "description": "P2E, NFT marketplaces, staking, smart contracts",
-    "buttonLink": "/blockchain-games",
+    "image": "/assets/images/digital-marketing-services.jpg",
+    "title": "Digital Marketing",
+    "description": "SEO, SEM, social media marketing, PPC, content creation, email marketing, branding, and performance analytics.",
+    "buttonLink": "/digital-marketing",
     "buttonText": "Learn More"
   },
   {
-    "image": "/assets/images/nft&meta.png",
-    "title": "NFT & Metaverse",
-    "description": "NFT marketplace, P2E Games, Smart contracts, Sandbox, Roblox, Decentraland, Spatial, UEFN, Unity, Unreal Engine",
-    "buttonLink": "/nft-metaverse",
+    "image": "/assets/images/ui-ux-designing-services.jpg",
+    "title": "UI/UX Designing",
+    "description": "User-centric design, wireframing, prototyping, usability testing, branding, mobile and web app UI design.",
+    "buttonLink": "/ui-ux-designing",
     "buttonText": "Learn More"
   },
   {
-    "image": "/assets/images/ve.png",
-    "title": "Virtual Experiences",
-    "description": "Digital Twins, ArchViz, VR, AR, XR, Interactivity, Retail, Real Estate, Tourism, Fashion, Sports, Gaming",
-    "buttonLink": "/virtual-experience",
+    "image": "/assets/images/cloud-services.jpg",
+    "title": "Cloud Solutions",
+    "description": "Cloud computing, AWS, Azure, Google Cloud, DevOps, CI/CD, serverless architecture, and security management.",
+    "buttonLink": "/cloud-solutions",
     "buttonText": "Learn More"
   },
   {
-    "image": "/assets/images/vr-game.png",
-    "title": "VR Games",
+    "image": "/assets/images/generative-ai-services.jpg",
+    "title": "Genrative AI",
     "description": "Real-life simulations, gamified metaverses, shopping experiences, real estate, sports, fashion.",
     "buttonLink": "/vr-development",
     "buttonText": "Learn More"

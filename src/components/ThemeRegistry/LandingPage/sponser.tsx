@@ -165,8 +165,15 @@ export default function Sponsor() {
                         justifyContent: "center",
                         gap: "4rem",
                         alignItems: "center",
+                        paddingLeft: "4rem"
                       }}
                     >
+                      <Image
+                        src={WhiteStar.src}
+                        alt="star"
+                        width={38}
+                        height={38}
+                      />
                       <Typography
                         sx={{
                           color: "#EAEAEA",
@@ -190,7 +197,7 @@ export default function Sponsor() {
                       />
                       <Typography
                         sx={{
-                          color: "#EAEAEA",
+                          color: "#EAEAEA", 
                           fontSize: {
                             xs: "30px",
                             sm: "40px",
@@ -247,8 +254,10 @@ export default function Sponsor() {
                       justifyContent: "center",
                       gap: "4rem",
                       alignItems: "center",
+                      paddingLeft: "4rem"
                     }}
                   >
+                    <Image src={Star.src} alt="star" width={38} height={38} />
                     <Typography
                       sx={{
                         color: "#F7431D",

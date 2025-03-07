@@ -150,7 +150,7 @@ export default function Sponsor() {
                   sx={{
                     display: "inline-block",
                     whiteSpace: "nowrap",
-                    overflow: "hidden",
+                    overflow: "hidden"
                   }}
                 >
                   <Box
@@ -165,7 +165,7 @@ export default function Sponsor() {
                         justifyContent: "center",
                         gap: "4rem",
                         alignItems: "center",
-                        paddingLeft: "4rem"
+                        paddingLeft: "4rem",
                       }}
                     >
                       <Image

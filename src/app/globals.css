@@ -76,3 +76,10 @@ body {
     opacity: 1;
   }
 }
+.custom-marqee{
+  min-width: unset !important;
+}
+
+.rfm-marquee {
+  min-width: unset !important;
+}
